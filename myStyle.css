@@ -1,0 +1,30 @@
+body{
+			background-color:brown ;
+			align-items: center;
+		     }
+		h1{ 
+			background-color: green;
+			color: black;
+			text-align: center;
+			font-size: 20px
+ 
+             }
+         
+        p{background-color: blue;
+        	font-size: 20px;
+        	color: red;
+        }
+        h3{ color:black ;
+        	background-color: green;
+
+        }
+        div{background-color: orange;
+
+        }
+        .mystyle{
+        	width: 400px;
+        	border: 20px solid green;
+        	padding: 25px;
+        	margin:25px;
+        	
+        }

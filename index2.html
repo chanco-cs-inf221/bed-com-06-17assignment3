@@ -1,0 +1,65 @@
+<!DOCTYPE  html>
+<html>
+<head>
+	
+
+      <link rel ="stylesheet" type="text/css" href="myStyle.css">
+          
+	</style>
+	<title>my first web page</title>
+      
+        
+</head>
+ <body>
+<div class="mystyle">	<h1> Voting App</h1>
+	 <p1 id="time"> </p1> 
+	
+    <form>
+	<p>Enter your First name</p>
+	    <input type="text" id ="fName" value = "">
+    <p>Enter your Surname</p>
+		<input  type ="text" id ="sName" value="">
+	<p>Enter your age</p>
+	    <input type = "text" id ="age"  value="0"  min="18" required>
+	    
+    <p>Select your gender<p>
+		<input type="radio" id="fem" name="gender" value="female">female
+		<input type="radio" id="mal" name="gender" value="male">male
+		<button type="reset">Reset</button>
+	</form>
+		
+		
+		<button onclick="ageValidity()"> proceed </button>
+
+		<p id ="candidates"></p>
+
+	 	<h3>A list of candidates with each candidate against his/her vote code</h3>
+
+  <div> <form>
+    <input id="j" type="text" name="John Doe" value="1" >John Doe<br>
+    <input id="e" type="text" name="Emily Munami" value="2"  > Emily Munami<br>
+    <input id="v"type="text" name="Victoria Banda" value="3" > Victoria Banda<br> 
+    <input id="jo"type="text" name="Jonech Mwale" value="4"  > Jonech Mwale<br>
+    
+</form>
+
+    
+
+		<p id="details"> </p>
+		 
+      <button id="readInstructions" onclick="getVotingInstructions()">click here to read the instructions</button>
+      <form><br>
+      	Enter a vote code placed against a candidate of your choice
+
+      <input id="enteredVoteCode" type="text" value="">
+      <button type="reset">Reset</button><br>
+  </form>
+  
+  <button  onclick="getTheVotedCandidate()">click here to submit your vote</button><br>
+  <p id ="youVoted"> </p><div></div>
+  
+<script type="text/javascript" src="index2.js"></script>
+	
+</body>
+
+</html>
